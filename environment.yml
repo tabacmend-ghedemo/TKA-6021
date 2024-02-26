@@ -1,0 +1,21 @@
+name: rfb
+channels:
+  - anaconda
+  - rdkit
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy==1.21.0
+  - pandas
+  - rdkit
+  - xgboost==1.4.2
+  - mordred
+  - scikit-learn
+  - tensorflow==2.3.0
+  - keras==2.4.3
+  - deepchem
+  - pip
+  - tqdm
+  - pip:
+    - stmol==0.0.9
